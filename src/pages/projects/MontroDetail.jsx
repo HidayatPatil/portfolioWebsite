@@ -46,7 +46,7 @@ export default function MontroDetail() {
             sustainable experience.
           </p>
         </div>
-        <img src="/src/assets/images/montro_snapshot01.png" alt="Montro app screenshot" />
+        <img src="/images/montro_snapshot01.png" alt="Montro app screenshot" />
       </div>
       <ProjectSection sectionTitle="Project Timeline">
         <div className="project-detail-content">

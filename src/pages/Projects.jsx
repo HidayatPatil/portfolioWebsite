@@ -43,7 +43,7 @@ export default function Projects() {
             <ProjectThumbnail 
               title="Montro"
               description="A gamified expense-tracking app that helps young adults build better money habits through smart budgeting, clear insights, and real rewards."
-              imageSrc="src\assets\images\montro_snapshot01.png"
+              imageSrc="/images/montro_snapshot01.png"
               imageAlt="Montro app screenshot"
               projectRoute="/projects/montro"
             />
@@ -61,7 +61,7 @@ export default function Projects() {
             <ProjectThumbnail 
               title="Polar Quest"
               description="desc."
-              imageSrc="src\assets\images\magazine_01.png"
+              imageSrc="/images/magazine_01.png"
               imageAlt="Polar Quest magazine"
               projectRoute="/projects/polar-quest"
             />
@@ -70,7 +70,7 @@ export default function Projects() {
             <ProjectThumbnail 
               title="Hearty Meals"
               description="desc."
-              imageSrc="src\assets\images\can_02.png"
+              imageSrc="/images/can_02.png"
               imageAlt="Hearty Meals product"
               projectRoute="/projects/hearty-meals"
             />

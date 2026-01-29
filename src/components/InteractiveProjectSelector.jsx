@@ -8,7 +8,7 @@ const projectData = {
     role: "Product Designer",
     date: "Feb 2025",
     categories: ["User Experience Design", "Interaction Design", "Branding"],
-    image: "src\\assets\\images\\montro_snapshot01.png",
+    image: "/images/montro_snapshot01.png",
   },
   PROLOG: {
     title: "ProLog",
@@ -22,7 +22,7 @@ const projectData = {
       "Branding",
       "Development",
     ],
-    image: "src\\assets\\images\\prolog_snapshot01.png",
+    image: "/images/prolog_snapshot01.png",
   },
   SIDEQUEST: {
     title: "SideQuest",
@@ -35,7 +35,7 @@ const projectData = {
       "User Experience Design",
       "Development",
     ],
-    image: "src\\assets\\images\\sidequest_snapshot01.png",
+    image: "/images/sidequest_snapshot01.png",
   },
 };
 
