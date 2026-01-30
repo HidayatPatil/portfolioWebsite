@@ -190,7 +190,8 @@ body {
 .section-title {
   display: flex;
   height: 120px;
-  border: 1px solid var(--border-grey);
+  border-top: 1px solid var(--border-grey);
+  border-bottom: 1px solid var(--border-grey);
   padding: 0 60px;
   align-items: center;
   font-size: 40px;

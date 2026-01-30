@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LoadingScreen from './components/LoadingScreen';
 import Navigation from './components/Navigation';
 import DitherBackground from './components/DitherBackground';
+import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import CaseStudies from './pages/CaseStudies';
@@ -32,6 +33,7 @@ export default function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <div className="site-body">
         <div className="hero-section">
           <DitherBackground />
