@@ -40,7 +40,7 @@ export default function Projects() {
         </div>
         <div className="all-projects-container">
           <div className="montro">
-            <ProjectThumbnail 
+            <ProjectThumbnail
               title="Montro"
               description="A gamified expense-tracking app that helps young adults build better money habits through smart budgeting, clear insights, and real rewards."
               imageSrc="/images/montro_snapshot01.png"
@@ -49,37 +49,38 @@ export default function Projects() {
             />
           </div>
           <div className="prolog">
-            <ProjectThumbnail 
+            <ProjectThumbnail
               title="ProLog"
               description="desc."
-              imageSrc=""
+              // imageSrc="/images/coming_soon.png"
               imageAlt="ProLog project"
               projectRoute="/projects/prolog"
             />
           </div>
           <div className="polarQuest">
-            <ProjectThumbnail 
+            <ProjectThumbnail
               title="Polar Quest"
-              description="desc."
+              description="Editorial Magazine Design. An immersive magazine concept inspired by
+            an 11-day expedition to the South Pole."
               imageSrc="/images/magazine_01.png"
               imageAlt="Polar Quest magazine"
               projectRoute="/projects/polar-quest"
             />
           </div>
           <div className="heartyMeals">
-            <ProjectThumbnail 
+            <ProjectThumbnail
               title="Hearty Meals"
-              description="desc."
+              description="A warm, all-natural soup designed for on-the-go consumption from heated vending machines."
               imageSrc="/images/can_02.png"
               imageAlt="Hearty Meals product"
               projectRoute="/projects/hearty-meals"
             />
           </div>
           <div className="ustraa">
-            <ProjectThumbnail 
+            <ProjectThumbnail
               title="Ustraa"
-              description="Desc."
-              imageSrc=" "
+              description="A single-material packaging concept designed to reduce waste from plastic blade cartridges."
+              // imageSrc="/images/coming_soon.png"
               imageAlt="Ustraa project"
               projectRoute="/projects/ustraa"
             />

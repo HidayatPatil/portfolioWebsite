@@ -5,7 +5,7 @@ export default function Footer() {
     <div className="footer-container">
       <div className="main-content-body">
         <div className="hidayat_title">
-          <img />
+          <img src='/images/SVG/logo_black.svg' alt='Logo' />
           <h4>HIDAYAT</h4>
         </div>
         <div className="page-links">

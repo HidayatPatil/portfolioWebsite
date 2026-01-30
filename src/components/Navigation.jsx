@@ -29,7 +29,7 @@ export default function Navigation({ className = '' }) {
   return (
     <div className={`nav-bar ${className}`}>
       <div className="hidayat_title">
-        <img />
+        <img src='/images/SVG/logo_white.svg' alt='Logo' />
         <h4>HIDAYAT</h4>
       </div>
       <div className="site-pages-nav">

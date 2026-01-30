@@ -1,4 +1,3 @@
-import BlurText from "../../components/BlurText";
 import ProjectSection from "../../components/ProjectSection";
 
 export default function MontroDetail() {
@@ -49,8 +48,62 @@ export default function MontroDetail() {
         <img src="/images/montro_snapshot01.png" alt="Montro app screenshot" />
       </div>
       <ProjectSection sectionTitle="Project Timeline">
-        <div className="project-detail-content">
-          {/* Add more project details here */}
+        <div className="project-brief-content">
+          <div className="project-content-container">
+            <p>
+              This project was completed over a five-month period, covering
+              research, problem definition, ideation, testing, and final design.
+              During this time, I led a team of designers and worked closely
+              with developers to ensure the solution was both user-centered and
+              technically feasible.
+            </p>
+          </div>
+          <img className="montro-timeline" src="/images/montro_timeline.png" />
+        </div>
+      </ProjectSection>
+      <ProjectSection sectionTitle="Problem Statement">
+        <div className="project-brief-content">
+          <div className="project-content-container">
+            <p>
+              Many people attempt to track their expenses, but only a small
+              portion manage to stay consistent. While around half of users
+              start tracking, the majority drop off over time due to common pain
+              points—{" "}
+              <b>tracking feels boring, time-consuming, and overwhelming</b>,
+              especially in apps that rely on manual entry and spreadsheet-like
+              layouts.
+            </p>
+            <p>
+              As motivation fades, users abandon tracking altogether and only
+              become aware of their spending habits once problems have already
+              formed.
+            </p>
+          </div>
+          <img className="montro-problem" src="/images/montro_problem.png" />
+          <p className="info-note">
+            Note: Data is based on user interview conducted on a group of 10
+            people.
+          </p>
+        </div>
+      </ProjectSection>
+      <ProjectSection sectionTitle="Solution">
+        <div className="project-brief-content">
+          <div className="project-content-container">
+            <p>
+              Many people attempt to track their expenses, but only a small
+              portion manage to stay consistent. While around half of users
+              start tracking, the majority drop off over time due to common pain
+              points—{" "}
+              <b>tracking feels boring, time-consuming, and overwhelming</b>,
+              especially in apps that rely on manual entry and spreadsheet-like
+              layouts.
+            </p>
+            <p>
+              As motivation fades, users abandon tracking altogether and only
+              become aware of their spending habits once problems have already
+              formed.
+            </p>
+          </div>
         </div>
       </ProjectSection>
     </>
