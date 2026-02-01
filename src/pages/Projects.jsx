@@ -52,7 +52,7 @@ export default function Projects() {
             <ProjectThumbnail
               title="ProLog"
               description="desc."
-              // imageSrc="/images/coming_soon.png"
+              imageSrc="/images/prolog02.png"
               imageAlt="ProLog project"
               projectRoute="/projects/prolog"
             />
@@ -80,7 +80,7 @@ export default function Projects() {
             <ProjectThumbnail
               title="Ustraa"
               description="A single-material packaging concept designed to reduce waste from plastic blade cartridges."
-              // imageSrc="/images/coming_soon.png"
+              imageSrc="/images/ustraa_thumnail.jpg"
               imageAlt="Ustraa project"
               projectRoute="/projects/ustraa"
             />

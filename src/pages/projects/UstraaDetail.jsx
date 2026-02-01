@@ -47,7 +47,7 @@ export default function UstraaDetail() {
             environmentally conscious consumer habits.
           </p>
         </div>
-        <img src="" alt="ustraa packaging" />
+        <img src="/images/ustraa_thumnail.jpg" alt="ustraa packaging" />
       </div>
       <ProjectSection sectionTitle="Project Brief">
         <div className="project-brief-content">
@@ -65,29 +65,18 @@ export default function UstraaDetail() {
             </p>
           </div>
           <div className="ustraa-grid">
-            <img
-              className="ustraa01"
-              src=""
-              alt="ustraa packaging"
-            />
-            <img
-              className="ustraa01"
-              src=""
-              alt="ustraa packaging"
-            />
-            <img
-              className="ustraat03"
-              src=""
-              alt="ustraa packaging"
-            />
-            <img
-              className="ustraa04"
-              src=""
-              alt="ustraa packaging"
-            />
+            <img className="ustraa01" src="/images/ustraa01.jpg" />
+            <div className="ustraa-packaging">
+              <img className="ustraa-pack01" src="/images/ustraa_pack01.jpg" />
+              <img className="ustraa-pack02" src="/images/ustraa_pack02.jpg" />
+              <img className="ustraa-pack03" src="/images/ustraa_pack03.jpg" />
+            </div>
+            <img className="ustraa03" src="/images/ustraa02.jpg" />
+            <img className="ustraa04" src="/images/ustraa03.jpg" />
           </div>
           <h1 className="project-end-quote">
-            Sustainability begins with better choices, <br />not more materials.
+            Sustainability begins with better choices, <br />
+            not more materials.
           </h1>
         </div>
       </ProjectSection>

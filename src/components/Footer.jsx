@@ -15,9 +15,9 @@ export default function Footer() {
           <Link to="/projects">
             <h4>PROJECTS</h4>
           </Link>
-          <Link to="/case-studies">
+          {/* <Link to="/case-studies">
             <h4>CASE STUDIES</h4>
-          </Link>
+          </Link> */}
           <Link to="/contact">
             <h4>CONTACT ME</h4>
           </Link>

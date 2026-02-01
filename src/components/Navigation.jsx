@@ -39,9 +39,9 @@ export default function Navigation({ className = '' }) {
         <Link to="/projects">
           <h4 className={isCurrentPage('/projects') ? 'current-page' : ''}>PROJECTS</h4>
         </Link>
-        <Link to="/case-studies">
+        {/* <Link to="/case-studies">
           <h4 className={isCurrentPage('/case-studies') ? 'current-page' : ''}>CASE STUDIES</h4>
-        </Link>
+        </Link> */}
         <Link to="/contact">
           <h4 className={isCurrentPage('/contact') ? 'current-page' : ''}>CONTACT ME</h4>
         </Link>
