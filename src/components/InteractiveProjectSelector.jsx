@@ -22,7 +22,7 @@ const projectData = {
       "Branding",
       "Development",
     ],
-    image: "/images/prolog_snapshot01.png",
+    image: "/images/prolog02.png",
   },
   SIDEQUEST: {
     title: "SideQuest",
@@ -35,7 +35,7 @@ const projectData = {
       "User Experience Design",
       "Development",
     ],
-    image: "/images/sidequest_snapshot01.png",
+    image: "/images/prolog01.png",
   },
 };
 
