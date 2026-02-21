@@ -23,12 +23,12 @@ export default function Home() {
           stepDuration={0.4}
           className="hero-title"
         />
-        {/* <div className="scroll-text">
-          <h6>Scroll Down</h6>
-          <span className="material-symbols-outlined scroll-icon">
+        <div className="scroll-text">
+          <h6>(Website Still under progress)</h6>
+          {/* <span className="material-symbols-outlined scroll-icon">
             arrow_downward
-          </span>
-        </div> */}
+          </span> */}
+        </div>
       </div>
       <div className="rotation-band">
         <ScrollVelocity
@@ -39,42 +39,40 @@ export default function Home() {
           className="rotation-band-text"
         />
       </div>
-      <ProjectSection sectionTitle="Top Projects">
+      <ProjectSection sectionTitle="Featured Projects">
         <InteractiveProjectSelector />
       </ProjectSection>
-      {/* <ProjectSection sectionTitle="Domains of Knowledge">
-        <div className="domain-grid">
-          <div className="domain-skill-box">
-            <div className="domain-red-overlay"></div>
-            <h3>User Experience</h3>
-            <img />
-          </div>
-          <div className="domain-skill-box">
-            <div className="domain-red-overlay"></div>
-            <h3>Visual Identity</h3>
-            <img />
-          </div>
-          <div className="domain-skill-box">
-            <div className="domain-red-overlay"></div>
-            <h3>Packaging</h3>
-            <img />
-          </div>
-          <div className="domain-skill-box">
-            <div className="domain-red-overlay"></div>
-            <h3>Graphics</h3>
-            <img />
-          </div>
-        </div>
-      </ProjectSection> */}
+      <ProjectSection sectionTitle="Domains of Knowledge">
+        <div className="domain-grid"></div>
+      </ProjectSection>
       <ProjectSection sectionTitle="About Me">
         <div className="about-me">
-          <img src="/images/my_photo.jpg" alt="hidayats photo" />
           <div className="about-me-content">
-            <h1>Creative Enthusiast & Passionate Maker</h1>
-            <h4>
-              description about myself description about myself description
-              about myself description about myself
-            </h4>
+            <h1>Creative Designer & Passionate Maker</h1>
+            <div className="about-me-para">
+              <h4>
+                I've always loved making things. That curiosity led me to
+                Industrial Design, where I learned to create physical products
+                that solve real problems. But as I worked, I became fascinated
+                by digital products: how they could reach people anywhere, solve
+                problems in different contexts, and adapt to different needs.
+                The idea of building solutions that could be used everywhere was
+                exciting.
+              </h4>
+              <h4>
+                That shift led me to product design. Over the past three years,
+                I've worked on enterprise SaaS products and design systems,
+                collaborating with PMs and engineers to turn complex problems
+                into clear, usable experiences. But I didn't want to stop at
+                designing. I wanted to actually build what I created. So I
+                learned to code, bridging the gap between design and
+                development.
+              </h4>
+              <h4>
+                Now I design with both perspectives in mind: how things work
+                end-to-end, and how to bring ideas to life myself.
+              </h4>
+            </div>
             <div className="project-meta-data">
               <div className="metadata-container">
                 <h5 className="metadata-title">Name</h5>
@@ -100,6 +98,9 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="about-me-image">
+            <img src="/images/my_photo.jpg" alt="hidayats photo" />
           </div>
         </div>
       </ProjectSection>

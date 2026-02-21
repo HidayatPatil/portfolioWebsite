@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 
-export default function ProjectThumbnail({ title, description, imageSrc, imageAlt, projectRoute }) {
+export default function ProjectThumbnail({ title, description, imageSrc, imageAlt, projectRoute, category }) {
   const navigate = useNavigate();
 
   const handleClick = () => {

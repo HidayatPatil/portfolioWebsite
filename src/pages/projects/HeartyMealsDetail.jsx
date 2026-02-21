@@ -40,13 +40,14 @@ export default function HeartyMealsDetail() {
             all-natural ingredients and designed to maintain a long shelf life.
           </p>
           <p>
-            The visual design highlights transparency and trust through <b>ingredient-led imagery</b>, showcasing both the soup inside and
+            The visual design highlights transparency and trust through{" "}
+            <b>ingredient-led imagery</b>, showcasing both the soup inside and
             the raw ingredients used in each flavor. The packaging balances
             warmth, clarity, and practicality while remaining visually engaging
             in a fast-paced, grab-and-go environment.
           </p>
         </div>
-        <img src="" alt="ustraa packaging" />
+        <img src="/images/can_02.png" alt="hearty meals can" />
       </div>
       <ProjectSection sectionTitle="Project Brief">
         <div className="project-brief-content">
@@ -56,22 +57,27 @@ export default function HeartyMealsDetail() {
               while standing out in a vending machine context and clearly
               communicating flavor, ingredients, and usability.
             </p>
+          </div>
+          <div className="project-content-container">
+            <h3>Design Approach</h3>
             <p>
-              A cohesive packaging concept that demonstrates how visual design
-              can elevate everyday food products by combining clarity, appetite
-              appeal, and functional context, tailored for quick decision-making
-              and on-the-go use.
+              I focused on transparency as the core visual strategy. The
+              packaging showcases both the soup itself and the raw ingredients
+              in each flavor, building trust through visibility. The design
+              balances warmth and clarity—approachable enough to feel
+              comforting, but clean and direct enough for split-second choices.
+            </p>
+            <p>
+              The result is a cohesive system that elevates an everyday vending
+              machine product by prioritizing honest communication and appetite
+              appeal.
             </p>
           </div>
-          <div className="ustraa-grid">
-            <img className="ustraa01" src="" alt="ustraa packaging" />
-            <img className="ustraa01" src="" alt="ustraa packaging" />
-            <img className="ustraat03" src="" alt="ustraa packaging" />
-            <img className="ustraa04" src="" alt="ustraa packaging" />
+          <div className="hearty-grid">
+            <img className="can01" src="/images/can_dieline.png" alt="can dieline graphics" />
+            <img className="can02" src="/images/can_01.png" alt="can mockup" />
           </div>
-          <h1 className="project-end-quote">
-            Yummy in my Tummy
-          </h1>
+          <h1 className="project-end-quote">Warmth, clarity, honesty. Even in a can.</h1>
         </div>
       </ProjectSection>
     </>

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const projectData = {
   MONTRO: {
@@ -9,11 +10,12 @@ const projectData = {
     date: "Feb 2025",
     categories: ["User Experience Design", "Interaction Design", "Branding"],
     image: "/images/montro_snapshot01.png",
+    link: "/projects/montro",
   },
   PROLOG: {
     title: "ProLog",
     description:
-      "TBA",
+      "Making the skilled trades apprenticeship journey visible, structured, and achievable every step of the way.",
     role: "Product Lead",
     date: "Sep 2025",
     categories: [
@@ -23,19 +25,17 @@ const projectData = {
       "Development",
     ],
     image: "/images/prolog02.png",
+    link: "/projects/prolog",
   },
-  SIDEQUEST: {
-    title: "SideQuest",
+  POLARQUEST: {
+    title: "Polar Quest",
     description:
-      "TBA",
-    role: "Product Designer",
-    date: "Feb 2025",
-    categories: [
-      "User Interface Design",
-      "User Experience Design",
-      "Development",
-    ],
-    image: "/images/prolog01.png",
+      "Editorial Magazine Design. An immersive magazine concept inspired by an 11-day expedition to the South Pole.",
+    role: "Individual Project",
+    date: "Sep 2025",
+    categories: ["Graphics", "Printing"],
+    image: "/images/magazine_01.png",
+    link: "/projects/polar-quest",
   },
 };
 
@@ -86,7 +86,13 @@ export default function InteractiveProjectSelector() {
           </div>
         </div>
         <div className="project-image">
-          <img src={currentProject.image} alt={currentProject.title} />
+          <Link to={currentProject.link}>
+            <img src={currentProject.image} alt={currentProject.title} />
+          </Link>
+          <Link to={currentProject.link} className="project-image-button">
+            VIEW PROJECT
+            <span className="material-symbols-outlined">arrow_forward</span>
+          </Link>
         </div>
       </div>
     </>
