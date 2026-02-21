@@ -18,9 +18,9 @@ export default function Footer() {
           {/* <Link to="/case-studies">
             <h4>CASE STUDIES</h4>
           </Link> */}
-          <Link to="/contact">
+          {/* <Link to="/contact">
             <h4>CONTACT ME</h4>
-          </Link>
+          </Link> */}
         </div>
       </div>
       <div className='silly-quote'>

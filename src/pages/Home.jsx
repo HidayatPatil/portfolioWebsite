@@ -51,26 +51,13 @@ export default function Home() {
             <h1>Creative Designer & Passionate Maker</h1>
             <div className="about-me-para">
               <h4>
-                I've always loved making things. That curiosity led me to
-                Industrial Design, where I learned to create physical products
-                that solve real problems. But as I worked, I became fascinated
-                by digital products: how they could reach people anywhere, solve
-                problems in different contexts, and adapt to different needs.
-                The idea of building solutions that could be used everywhere was
-                exciting.
-              </h4>
-              <h4>
-                That shift led me to product design. Over the past three years,
-                I've worked on enterprise SaaS products and design systems,
-                collaborating with PMs and engineers to turn complex problems
-                into clear, usable experiences. But I didn't want to stop at
-                designing. I wanted to actually build what I created. So I
-                learned to code, bridging the gap between design and
-                development.
-              </h4>
-              <h4>
-                Now I design with both perspectives in mind: how things work
-                end-to-end, and how to bring ideas to life myself.
+                Ever since I was a kid, I've loved creating things with my own
+                hands—cardboard, clay, papier-mâché, sheet metal, you name it.
+                I've always been a practical and hands-on person, which sparked
+                my interest in creating products, both tangible and intangible.
+                I have a lot of interests, and funnily enough, my hobby is
+                collecting and exploring other hobbies. If you want to sit down
+                and have a fun chat, connect with me via <a href="https://www.linkedin.com/in/hidayat-patil/" target="_blank">LinkedIn!</a>
               </h4>
             </div>
             <div className="project-meta-data">
